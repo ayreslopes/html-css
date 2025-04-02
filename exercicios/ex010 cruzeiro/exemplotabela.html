@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Tabela</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #fefffc;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <h2>Remédios para tratamento</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Novalgina</td>
+                <td>R$35,60</td>
+                <td>2</td>
+                <td>R$71,20</td>
+            </tr>
+            <tr>
+                <td>Predsim</td>
+                <td>R$65,99</td>
+                <td>1</td>
+                <td>R$65,99</td>
+            </tr>
+            <tr>
+                <td>Aerolin</td>
+                <td>R$23,10</td>
+                <td>3</td>
+                <td>R$66,30</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"><strong>A pagar</strong></td>
+                <td>6</td>
+                <td><strong>R$203,49</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+           <a href="index.html">Voltar para Exemplo HTML</a>
+       
+</body>
+</html>
+
